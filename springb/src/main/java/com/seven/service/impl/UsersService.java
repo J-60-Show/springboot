@@ -18,5 +18,12 @@ public class UsersService implements IUsersService{
 	public Users login(Users users) {
 		return usersMapper.selectUsersByUsers(users);
 	}
+	@Override
+	public boolean reg(Users users) {
+		if(usersMapper.insertUsers(users) != 0){
+			return true;
+		}
+		return false;
+	}
 
 }
