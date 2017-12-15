@@ -1,0 +1,34 @@
+{
+  "groups": [{
+    "name": "lrh",
+    "type": "com.seven.pojo.Users",
+    "sourceType": "com.seven.pojo.Users"
+  }],
+  "properties": [
+    {
+      "name": "lrh.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.seven.pojo.Users"
+    },
+    {
+      "name": "lrh.id",
+      "type": "java.lang.Integer",
+      "sourceType": "com.seven.pojo.Users"
+    },
+    {
+      "name": "lrh.name",
+      "type": "java.lang.String",
+      "sourceType": "com.seven.pojo.Users"
+    },
+    {
+      "name": "lrh.password",
+      "type": "java.lang.String",
+      "sourceType": "com.seven.pojo.Users"
+    },
+    {
+      "name": "lrh.sex",
+      "type": "java.lang.String",
+      "sourceType": "com.seven.pojo.Users"
+    }
+  ]
+}
